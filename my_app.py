@@ -1,6 +1,6 @@
 from PyQt5.QtCore import Qt 
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QLineEdit 
-from inst.py import *
+from instr.py import *
 
 W, H = 1620, 780
 title
