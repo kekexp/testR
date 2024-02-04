@@ -1,9 +1,8 @@
 from PyQt5.QtCore import Qt 
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QLineEdit 
 from instr.py import *
+from finalwin_app.py import *
 
-W, H = 1620, 780
-title
 class MainWin(QWidget):
     def __init__(self):
         super().__init__()
