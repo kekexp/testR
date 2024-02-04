@@ -1,7 +1,7 @@
 # напиши здесь код основного приложения и первого экрана
 from PyQt5.QtCore import Qt 
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QLineEdit 
-from inst import*
+from instr.py import*
 class FinalWin(QWidget):
     def __init__(self):
         super().__init__()
