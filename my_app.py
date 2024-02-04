@@ -12,7 +12,7 @@ class MainWin(QWidget):
         self.connects()
         self.show()
     def set_appear(self):
-        self.setWindowTitle(title1) 
+        self.setWindowTitle(Title1) 
         self.resize(W, H) 
     def initUI(self):
         self.St = QLabel(welctxt) 
@@ -38,7 +38,7 @@ class TestWin(QWidget):
         self.connects()
         self.show()
     def set_appear(self):
-        self.setWindowTitle(title2) 
+        self.setWindowTitle(Title2) 
         self.resize(W, H)
     def initUI(self):
         self.St2 = QLabel('Введите Ф.И.О.:') 
